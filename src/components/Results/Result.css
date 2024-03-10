@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.result>div{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}

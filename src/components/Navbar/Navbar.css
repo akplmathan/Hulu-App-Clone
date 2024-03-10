@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+}
+h2{
+    transition: all 0.2s linear;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    padding: 30px;
+    overflow-x: scroll;
+    text-decoration: none;
+}
+a.active h2{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.navbar h2{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.navbar::-webkit-scrollbar{
+    display: none;
+}
+.navbar h2:hover{
+    opacity:1;
+    transform: scale(1.2);
+}
+@media (max-width:730px){
+    h2{
+        font-size: 20px;
+    }
+}
